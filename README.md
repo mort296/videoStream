@@ -1,4 +1,2 @@
-videoStream
-===========
-
-nodejs video streaming
+# testProject
+### a Sails application
