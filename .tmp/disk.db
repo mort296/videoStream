@@ -1,6 +1,19 @@
 {
   "data": {
-    "video": []
+    "video": [
+      {
+        "url": "/Users/max/www/videoStream/api/controllers/videoUploads/bon_jovi.mp4",
+        "createdAt": "2013-11-16T18:07:27.487Z",
+        "updatedAt": "2013-11-16T18:07:27.487Z",
+        "id": 1
+      },
+      {
+        "url": "/Users/max/www/videoStream/api/controllers/videoUploads/ONE MILLION YEARS DUNGEON!.mp4",
+        "createdAt": "2013-11-16T18:26:54.247Z",
+        "updatedAt": "2013-11-16T18:26:54.247Z",
+        "id": 2
+      }
+    ]
   },
   "schema": {
     "video": {
@@ -25,6 +38,8 @@
     }
   },
   "counters": {
-    "video": {}
+    "video": {
+      "id": 2
+    }
   }
 }

@@ -34,6 +34,16 @@ module.exports.routes = {
   // (This would also work if you had a file at: `/views/home.ejs`)
   '/': {
     view: 'home/index'
+  },
+
+  '/video': {
+      controller    : 'videoController',
+      action        : 'stream'
+  },
+
+  'get /video/:id?': {
+      controller    : 'videoController',
+      action        : 'play'
   }
 
   /*
